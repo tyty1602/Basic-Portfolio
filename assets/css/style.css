@@ -1,5 +1,53 @@
 
-body {
-    background-color: rgb(173, 221, 230);
+nav {
+    padding: 10px;
 }
 
+body {
+    background-image: url(../images/leaves-pattern.png);
+  }
+
+body {
+    font-family: 'Arial', 'Helvatica Neue','Helvetica','sans-serif';
+    color: #777777;
+    line-height: 2;
+    width: 960px; margin:0 auto;
+    ;
+}
+
+.tablink 
+{   background: #ffffff;;
+    color: #cccccc;
+    height: 50px;
+    width: 25%;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    float: left;
+}   
+
+.footer
+{
+    background: #666666;;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+
+img 
+{
+    float: left;
+    height: 85px;
+    Width: 100%;
+    padding: 10px;
+}
+
+div {
+    clear: left;
+}
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #ffffff;
+    border-bottom-style: solid;
+    padding: 10px;
+
+}
