@@ -2,18 +2,24 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <nav>
-      <button class="tablink" onclick="openPage('Lan Truong', this, 'teal')" id="defaultOpen">Lan Truong</button>
-      <button class="tablink" onclick="openPage('Portfolio', this, 'teal')">Portfolio</button>
-      <button class="tablink" onclick="openPage('Contact', this, 'teal')">Contact</button>
-  </nav>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-</head>
+
+</head> 
+
+
+<header>
+    <h1>LAN TRUONG</h1>
+<nav>
+    <a href=contact.html class ="button2">Contact</a>
+    <a href=Portfolio.html class="button2">Portfolio</a>
+    <a href=index.html class ="button2">About Me</a>
+</nav>
+
+</header>
 
 <body>
-
-  <div id="Lan Truong" class="tabcontent">
-    <h3>About me</h3>
+    <h2>About me</h2>
     <img src="assets/images/img.JPG" alt="Lan photo" style="width:300px;height:300px;">
 
     <p>I’m Lan. I live in Seattle with my husband Michael and my Shih Tzu Coconut Chip. That is the most important fact about me but if you’re interested in the details, see below:
@@ -34,81 +40,13 @@
       </ul>
   </div>
 
-  <div id="Portfolio" class="tabcontent">
-
-    <h3>Portfolio</h3>
-    <img src="images/apple.pnj" alt="apple" width="45" height="45">
-    <img src"images/apple.png" alt="icon1">
-    <img src"images/apple.png" alt"icon2">
-    <img src"images/sandclock.png" alt"icon3">
-    <img src"images/ninja.png" alt"ninja">
-    
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quibusdam dicta tempora, voluptate accusamus quas dolore a laborum dolorem praesentium totam, officia porro perspiciatis sint commodi, mollitia reprehenderit delectus rerum?</p> 
-  </div>
-
-  <div id="Contact" class="tabcontent">
-    <h3>Contact</h3>
-  <p>Feel free to fill in this contact form </p>
-
-  <div class="container">
-    <form action="/action_page.php">
-      <div class="row">
-        <div class="col-25">
-          <label for="fname">First Name</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="lname">Last Name</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        </div>
-      </div>
-      </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="subject">Subject</label>
-        </div>
-        <div class="col-75">
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        </div>
-      </div>
-      <div class="row">
-        <input type="submit" value="Submit">
-      </div>
-    </form>
-  </div>
-  </div>
-
-  <script>
-      function openPage(pageName,elmnt,color) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-              tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablink");
-          for (i = 0; i < tablinks.length; i++) {
-              tablinks[i].style.backgroundColor = "";
-          }
-          document.getElementById(pageName).style.display = "block";
-          elmnt.style.backgroundColor = color;
-      }
-      // Get the element with id="defaultOpen" and click on it
-      document.getElementById("defaultOpen").click();
-      </script>
-
   <footer class="footer">
     <p class ="content"> Posted by Lan Truong
       <br>
-    <a href="mailto:lan.truong1@gmail.com">Email</a>
-    <a href="asfjalsfja">Facebook</a>
-    <a href="safdjafdsflajedjfa">Linkedin</a>
-    <a href="sjldjslafjdlajfa">Stackoverflow</a>
+    <a href="mailto:lan.truong1@gmail.com" i class="fas fa-envelope-open"></a>
+    <a href="https://www.facebook.com/" i class="fab fa-facebook"></a>
+    <a href="https://www.linkedin.com/" i class="fab fa-linkedin"></a>
+    <a href="https://stackoverflow.com/" i class="fab fa-stack-overflow"></a>
   </footer>
      
   
