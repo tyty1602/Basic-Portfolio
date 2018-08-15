@@ -31,7 +31,6 @@ h2 {
 .icon {
     height: 200px;
     width: 200px;
-    float: left;
 }
 
 body {
@@ -48,7 +47,7 @@ body {
 
 .footer
 {
-    position: absolute;
+    position: fixed;
     left:0; right:0; 
     bottom: 0;
     width: 100%;
